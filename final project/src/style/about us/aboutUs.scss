@@ -1,0 +1,99 @@
+.para {
+    background: #f6f9f7;
+    padding: 2em;
+    text-align: center;
+}
+.secesion_one {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 5em;
+    .hp {
+        color: rgb(64, 64, 247);
+    }
+    p {
+        padding-top: 2em;
+    }
+    h1 {
+        padding-top: 1em;
+    }
+    .p1 {
+        width: 50%;
+    }
+    .p2 {
+        width: 50%;
+    }
+    .srvay {
+        display: flex;
+        gap: 2em;
+        padding-top: 1em;
+    }
+    span {
+        color: rgb(64, 64, 247);
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+.secesion_two {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 5em;
+    .hp {
+        color: rgb(64, 64, 247);
+    }
+    .features {
+        padding-top: 2em;
+    }
+}
+.secesion_three {
+    h1 {
+        text-align: center;
+    }
+    .hp {
+        color: rgb(64, 64, 247);
+        text-align: center;
+    }
+    .hp2 {
+        color: rgb(64, 64, 247);
+    }
+    .our_team {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        gap: 2.5em;
+    }
+}
+.secesion_four {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 3em;
+    background: #f9f9f9;
+    .secesion_four_p1 {
+        width: 50%;
+    }
+    .secesion_four_p2 {
+        width: 50%;
+    }
+    .input {
+        height: 3.4em;
+        width: 60%;
+        padding-inline: 1em;
+    }
+    .button {
+    padding: 1em;
+    width: 15em;
+    background: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    }
+    .button:hover {
+        background: greenyellow;
+        color: #fff;
+    }
+}

@@ -1,0 +1,40 @@
+.SecesionOne {
+    display: flex;
+    padding: 3em 6em;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 5em;
+    font-size: 25px;
+    h3 {
+        font-size: 35px;
+    }
+    hr {
+        width: 35%;
+    }
+    .price {
+        color: orange;
+    }
+}
+.back_img_him {
+    background-image: url(../images/forHim.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 300px;
+    width: 500px;
+    padding-inline: 3em;
+    padding-top: 2em;
+}
+.back_img_her {
+    background-image: url(../images/forHer.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 500px;
+    padding-inline: 3em;
+    padding-top: 2em;
+}
+.more {
+    cursor: pointer;
+}
+.more:hover {
+    color: orange;
+}

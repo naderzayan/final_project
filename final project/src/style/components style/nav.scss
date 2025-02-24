@@ -1,0 +1,64 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    background: #f6f7fb;
+    svg {
+        cursor: pointer;
+    }
+    .sebag {
+        display: flex;
+        gap: 1.5em;
+        position: relative;
+    }
+    .icon {
+        font-size: 35px;
+    }
+    .cart {
+        position: absolute;
+        left: 85%;
+        background: red;
+        color: #fff;
+        border-radius: 50%;
+        width: 1rem;
+        height: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+.nav {
+    justify-content: space-between;
+    padding: .5em;
+}
+.links {
+    display: flex;
+    gap: 2.5em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(255, 78, 78);
+}
+.cart_list {
+    width: 25%;
+    background: rgb(253, 177, 78);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    right: -100%;
+    top: 0;
+    height: 100vh;
+    z-index: 10;
+    &.active {
+        right: 0;
+    }
+    svg {
+        cursor: pointer;
+    }
+}

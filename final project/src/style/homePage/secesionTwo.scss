@@ -1,0 +1,21 @@
+.SecesionTwo {
+    display: flex;
+    padding-top: 2em;
+    background: #f2f2f2;
+    line-height: 2;
+    img {
+        width: 50%;
+    }
+    .SecesionTwo_div2{
+        width: 50%;
+    }
+    .btn {
+        margin: 1em;
+        width: 15em;
+        background: #000;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}

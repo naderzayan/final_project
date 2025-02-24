@@ -1,0 +1,55 @@
+.maen {
+    display: flex;
+    gap: .5em;
+}
+.img {
+    padding: .5em;
+    border-radius: 1.5em;
+    width: 50%;
+}
+span {
+    color: red;
+    font-weight: bold;
+}
+.form_style {
+    background: burlywood;
+    padding: 2em;
+    border-radius: 1.5em;
+    width: 50%;
+    .head_of_form {
+        padding-bottom: 1em;
+    }
+    .mail_style{
+        height: 2.5em;
+        width: 95%;
+        padding-inline: 1em;
+        border-radius: .5em;
+        border: 1px solid ;
+    }
+    .massage_style {
+        height: 2.5em;
+        width: 95%;
+        padding-inline: 1em;
+        border-radius: .5em;
+        border: 1px solid;
+    }
+    .submit_style {
+        height: 2.5em;
+        width: 20%;
+        border-radius: .5em;
+        border: none;
+        background: orangered;
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .submit_style:hover {
+        background: greenyellow;
+        color: #000;
+    }
+    .checkboxp {
+        display: flex;
+        gap: .5em;
+    }
+}

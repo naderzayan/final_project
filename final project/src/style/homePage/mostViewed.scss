@@ -1,0 +1,8 @@
+.posts_container {
+    display: flex;
+    justify-content: center;
+    .PostCard {
+        padding: 1em;
+        border: 1px solid #f2f2f2;
+    }
+}

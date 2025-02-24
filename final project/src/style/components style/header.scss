@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+    padding: .5em;
+    background: #f6f7fb;
+    svg {
+        cursor: pointer;
+    }
+}
+.head {
+    display: flex;
+    gap: 2em;
+}
+.iconOfLinks {
+    gap: 2em;
+}

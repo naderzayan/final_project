@@ -1,0 +1,28 @@
+.products {
+    display: flex;
+    padding: 5em;
+    height: 100vh;
+    background: #f6f7fb;
+    font-size: 25px;
+    gap: 3em;
+    h1 {
+        font-weight: bolder;
+    }
+    .price_befor {
+        color: orange;
+        font-size: 2em;
+        font-weight: bolder;
+    }
+    .price_after {
+        color: gainsboro;
+    }
+}
+button {
+    padding: 1em;
+    width: 15em;
+    background: orangered;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
