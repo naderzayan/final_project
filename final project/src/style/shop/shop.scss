@@ -2,12 +2,14 @@
     display: flex;
     .filter {
         padding: 2em;
+        width: fit-content;
         border: 1px dotted #000;
         margin: 1em;
     }
     .contactOfCard {
         padding: 2em;
         border: 1px dotted #000;
+        width: fit-content;
         margin: 1em;
         hr {
             border: 1px dotted ;
@@ -29,7 +31,8 @@
     }
     .Nav_tab {
         display: flex;
-        gap: 5em;
+        width: 70vw;
+        gap: 40em;
         padding: 2em;
         background: #f9f9f9;
         .Sort_viwe {
