@@ -21,6 +21,9 @@ import Contact from "./pages/Contact";
 import WishList from "./pages/WishList";
 import Applayout from "./components/applayout";
 import Login from "./components/Login";
+import Watchbuying from './component/Watchbuying'
+import {CounterProvider} from'./component/CounterContextt'
+import Thecart from './component/Thecart'
 
 export default function App() {
     const Routing = createBrowserRouter([
@@ -34,12 +37,27 @@ export default function App() {
         { path: "wishlist", element: <WishList /> },
         { path: "login", element: <Login /> },
         { path: "*", element: <h1>404 not found</h1> },
+               {path:"posts/:id/:amount",element:<Watchbuying/>},
+                {
+                    path:"cart",element:<Thecart/>
+                }
+
     ]}
       
     ]);
     return (
-        <div>
-            <RouterProvider router={Routing} />
-        </div>
+         <div>
+        <CounterProvider >
+            
+        <RouterProvider router={Routing} />
+        </CounterProvider>
+       
+       
+
+  
+   
+   </div>
+    
+
     );
 }
